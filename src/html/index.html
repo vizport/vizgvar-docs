@@ -8,11 +8,16 @@
 <body>
 	
 	<header>
-		<h1>VizPort Documentation</h1>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<h1>VizPort Documentation</h1>
+				</div>
+			</div>
+		</div>
 	</header>
 
-
-	<section>
+	<section id="questions-section" class="questions-section">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12 title-container">
@@ -20,30 +25,103 @@
 				</div>
 				<div class="col-lg-12 menu-container">
 					<ol>
-						<li class="question1">What is VizPort One?</li>
-						<li class="question2">What proteins can be currently found on the platform?</li>
-						<li class="question3">How to visualize a protein?</li>
-						<li class="question4">How to navigate within a protein?</li>
-						<li class="question5">How to interact with the domains graphic?</li>
-						<li class="question6">How to interact with the exons graphic?</li>
-						<li class="question7">How to interact with the variations graphic?</li>
-						<li class="question8">What data can be viewed about a specific protein?</li>
-						<li class="question9">How can I save a specific domain, exon or protein variation?</li>
-						<li class="question10">How can I review and manage my saved features?</li>
-						<li class="question11">How can I export the saved data for further use?</li>
-						<li class="question12">How can I contact the development team?</li>
+						<li><a href="#question-1" class="question-list">What is VizPort One?</a></li>
+						<li><a href="#question-2" class="question-list">What proteins can be currently found on the platform?</a></li>
+						<li><a href="#question-3" class="question-list">How to visualize a protein?</a></li>
+						<li><a href="#question-4" class="question-list">How to navigate within a protein?</a></li>
+						<li><a href="#question-5" class="question-list">How to interact with the domains graphic?</a></li>
+						<li><a href="#question-6" class="question-list">How to interact with the exons graphic?</a></li>
+						<li><a href="#question-7" class="question-list">How to interact with the variations graphic?</a></li>
+						<li><a href="#question-8" class="question-list">What data can be viewed about a specific protein?</a></li>
+						<li><a href="#question-9" class="question-list">How can I save a specific domain, exon or protein variation?</a></li>
+						<li><a href="#question-10" class="question-list">How can I review and manage my saved features?</a></li>
+						<li><a href="#question-11" class="question-list">How can I export the saved data for further use?</a></li>
+						<li><a href="#question-12" class="question-list">How can I contact the development team?</a></li>
 					</ol>
 				</div>
 
 				<div class="col-lg-12 questions-container">
-					<div class="col-lg-8 question">
-						<p><b>What is VizPort One?</b><br>
+					<div id="question-1" class="col-lg-8 question">
+						<p><b>1. What is VizPort One?</b><br>
 						VizPort One is the first tool of the Visualization Portal for for Biological Data. It is an ongoing data visualization project that obtains protein variation data from the Ensembl API and organizes and visualizes it in a simple, yet very effective and easy to use way.</p>
 					</div>
-					<div class="col-lg-8 question">
-						<p><b>What proteins can be currently found on the platform?</b><br>
+
+					<div id="question-2" class="col-lg-8 question">
+						<p><b>2. What proteins can be currently found on the platform?</b><br>
 						There is a small amount of proteins that can be currently found on the platform. Historically relevant proteins such as BRCA-2 and ERBB-2 can be visualized, as well as non-cancer related proteins such as APP-001 and PPARG-003. The number of proteins will continue to increase with the development of this tool. If you would like to suggest a protein, please contact us.</p>
-					</div>					
+					</div>
+
+					<div id="question-3" class="col-lg-8 question">
+						<p><b>3. How to visualize a protein?</b><br>
+						To visualize a protein, click on the button that says “Select a protein”. A dropdown menu will be display with all the proteins available. Click on the protein of your choice.</p>
+					</div>
+
+					<div id="question-4" class="col-lg-8 question">
+						<p><b>4. How to navigate within a protein?</b><br>
+						Once you have selected a protein, you can see its name and description on the top navigation bar. Below you will find the protein range bar. This bar describes the range of amino acids that are currently displayed. By default, this range displays the complete protein.</p>
+						<img src="" alt="image of the range bar">
+						<p>To only view a portion of the protein in order to enhance the level of detail, click and drag one of the two circular handles and the range and the graphics will update automatically.</p>
+					</div>	
+
+					<div id="question-5" class="col-lg-8 question">
+						<p><b>5. How to interact with the domains graphic?</b><br>
+						The domains section contains annotated domains of several sources. These sources can be viewed below the text “Domains” in a horizontal arrangement paired with a unique color.</p>
+						<img src="" alt="image of the domains sources">
+						<p>By hovering over any of the domain sources, the domains graphic will update, and the source of interest will be highlighted, while the rest of the sources will be almost invisible, allowing the user to focus on the required information.</p>
+						<img src="" alt="image of the domain tooltip">
+					</div>
+
+					<div id="question-6" class="col-lg-8 question">
+						<p><b>6. How to interact with the exons graphic?</b><br>
+						The exons graphic behaves similarly to the domains graphic. Hover with the mouse pointer over one of the colored lines that represent each alternating exon of the protein to view specific information about it. By clicking on the same line, a dialogue box will be displayed with further options.</p>
+						<img src="" alt="image of exons with tooltip">
+					</div>
+
+					<div id="question-7" class="col-lg-8 question">
+						<p><b>7. How to interact with the variations graphic?</b><br>
+						The variations graphic shows all the annotated variations for a specific protein. Every curved line in the graphic represents one single variation (i.e. an rs or a somatic variation). Similarly, every color in the graphic represents a type of variation (e.g. inframe deletion, missense variant, etc).<br><br>
+
+						Please note that there is a scale on the top of the graphic that serves as a reference point and marks the number of the amino acid in the chain. By hovering over any of the lines with the mouse pointer, detailed information about a specific variant will be displayed. In the same fashion, hovering with the mouse pointer over one of the colored bars at the bottom of the graphic will highlight that specific type of variations and decrease the opacity of the rest.</p>
+						<img src="" alt="composite image of hovering over line and hovering over type">
+					</div>
+
+					<div id="question-8" class="col-lg-8 question">
+						<p><b>8. What data can be viewed about a specific protein?</b><br>
+						There’s detailed data that can be obtained from any protein in VizPort.<br><br>
+
+						For the domain features, the user can see its ID (e.g. PF03494), source (e.g. PANTHER), the name of the domain (e.g. Amyloidogenic glycoprotein, amyloid-beta peptide) and its position (e.g. aa 680 - aa 705).<br><br>
+
+
+						For the exon features, the user can se its ID (e.g. ENSE00003527715), its start and end phases and its position (e.g. aa 221 - aa 289).<br><br>
+
+						For the variation features, if available, the user can see the ID of the variation (e.g. rs201794320), its type (e.g. Synonymous Variant), position (e.g. aa 555), codon (e.g. gaT/gaC), alleles (e.g. A/G) and residues (e.g. D/D).<br><br>
+
+						Also, by clicking on the hyperlink “Additional Information”, the tool with load a new tab on the browser that redirects to the PharmGKB or COSMIC portals for rs and COSMIC IDs respectively. If the ID has been registered in any of these portals, the user will find expanded pharmacogenomic information.</p>
+					</div>
+
+					<div id="question-9" class="col-lg-8 question">
+						<p><b>9. How can I save a specific domain, exon or protein variation?</b><br>
+						To save an interesting feature, click on it. A dialogue box will appear with a save button on the bottom left corner. Click the save button.</p>
+						<img src="" alt="image of a modal">
+					</div>
+
+					<div id="question-10" class="col-lg-8 question">
+						<p><b>10. How can I review and manage my saved features?</b><br>
+						You can find the saved features at the bottom of the page, below the graphics under a dark grey section entitled “Annotation”. There are four tabs named “all”, “domains”, “exons” and “variations”.<br><br>
+
+						You can review the data of the feature by pressing the arrow on the left of the box and the “X” on the right to delete it.</p>
+						<img src="" alt="image of a saved items">
+					</div>
+
+					<div id="question-11" class="col-lg-8 question">
+						<p><b>11. How can I export the saved data for further use?</b><br>
+						To export the data as a CSV file, press the Download button on the right of the annotations bar. You will be able to download an editable file with all the annotations.</p>
+					</div>
+
+					<div id="question-12" class="col-lg-8 question">
+						<p><b>12. How can I contact the development team?</b><br>
+						If you wish to suggest a feature, improvement or simply leave a comment, please write to info@vizport.io</p>
+					</div>											
 				</div>
 			</div>
 		</div>
