@@ -2,16 +2,16 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Start Dev Enviroment </title>
+	<title>VizPort One - Documentation </title>
 	<link rel="stylesheet" href="/index.css">
 </head>
 <body>
-	
+
 	<header>
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
-					<h1>VizPort Documentation</h1>
+					<h1>VizPort One Documentation</h1>
 				</div>
 			</div>
 		</div>
@@ -48,41 +48,46 @@
 
 					<div id="question-2" class="col-lg-8 question">
 						<p><b>2. What proteins can be currently found on the platform?</b><br>
-						There is a small amount of proteins that can be currently found on the platform. Historically relevant proteins such as BRCA-2 and ERBB-2 can be visualized, as well as non-cancer related proteins such as APP-001 and PPARG-003. The number of proteins will continue to increase with the development of this tool. If you would like to suggest a protein, please contact us.</p>
+						There is a small amount of proteins that can be currently found on the platform. Historically relevant proteins such as ERBB-2 can be visualized, as well as non-cancer related proteins such as IRF8, CCR5 and PLD3. The number of proteins will continue to increase with the development of this tool. If you would like to suggest a protein, please contact us.</p>
 					</div>
 
 					<div id="question-3" class="col-lg-8 question">
 						<p><b>3. How to visualize a protein?</b><br>
-						To visualize a protein, click on the button that says “Select a protein”. A dropdown menu will be display with all the proteins available. Click on the protein of your choice.</p>
+						To visualize a protein from the home screen, simply click on the name of the protein that you want to visualize. If you are currently visualizing a protein and would like to load a different one, click on the protein name on the top navigation bar.</p>
 					</div>
 
 					<div id="question-4" class="col-lg-8 question">
 						<p><b>4. How to navigate within a protein?</b><br>
 						Once you have selected a protein, you can see its name and description on the top navigation bar. Below you will find the protein range bar. This bar describes the range of amino acids that are currently displayed. By default, this range displays the complete protein.</p>
-						<img src="" alt="image of the range bar">
-						<p>To only view a portion of the protein in order to enhance the level of detail, click and drag one of the two circular handles and the range and the graphics will update automatically.</p>
-					</div>	
+						<img src="images/doc_4.png" alt="image of the range bar", class="img-responsive">
+						<p>To only view a portion of the protein in order to enhance the level of detail, click and drag one of the two circular handles and the the graphics will update automatically.</p>
+					</div>
 
 					<div id="question-5" class="col-lg-8 question">
 						<p><b>5. How to interact with the domains graphic?</b><br>
 						The domains section contains annotated domains of several sources. These sources can be viewed below the text “Domains” in a horizontal arrangement paired with a unique color.</p>
-						<img src="" alt="image of the domains sources">
-						<p>By hovering over any of the domain sources, the domains graphic will update, and the source of interest will be highlighted, while the rest of the sources will be almost invisible, allowing the user to focus on the required information.</p>
-						<img src="" alt="image of the domain tooltip">
+						<img src="images/doc_5a.png" alt="image of the domains sources", class="img-responsive">
+						<p>By hovering over any of the domain sources, the domains graphic will update, and the source of interest will be highlighted, while the rest of the sources will be almost invisible, allowing the user to focus on the required information. By clicking on a domain, a dialogue box will be displayed with further options.</p>
+						<img src="images/doc_5b.png" alt="image of the domain tooltip", class="img-responsive">
 					</div>
 
 					<div id="question-6" class="col-lg-8 question">
 						<p><b>6. How to interact with the exons graphic?</b><br>
 						The exons graphic behaves similarly to the domains graphic. Hover with the mouse pointer over one of the colored lines that represent each alternating exon of the protein to view specific information about it. By clicking on the same line, a dialogue box will be displayed with further options.</p>
-						<img src="" alt="image of exons with tooltip">
+						<!-- <img src="" alt="image of exons with tooltip"> -->
 					</div>
 
 					<div id="question-7" class="col-lg-8 question">
 						<p><b>7. How to interact with the variations graphic?</b><br>
 						The variations graphic shows all the annotated variations for a specific protein. Every curved line in the graphic represents one single variation (i.e. an rs or a somatic variation). Similarly, every color in the graphic represents a type of variation (e.g. inframe deletion, missense variant, etc).<br><br>
 
-						Please note that there is a scale on the top of the graphic that serves as a reference point and marks the number of the amino acid in the chain. By hovering over any of the lines with the mouse pointer, detailed information about a specific variant will be displayed. In the same fashion, hovering with the mouse pointer over one of the colored bars at the bottom of the graphic will highlight that specific type of variations and decrease the opacity of the rest.</p>
-						<img src="" alt="composite image of hovering over line and hovering over type">
+						Please note that there is a scale on the top of this graphic that serves as a permanent point of reference and indicates the number of the amino acid in the transcription. By hovering over any of the lines with the mouse pointer, detailed information about a specific variant will be displayed in the form of a tooltip.</p>
+
+						<img src="images/doc_7a.png" alt="Image of hovering over line", class="img-responsive">
+
+
+						<p>In the same fashion, hovering with the mouse pointer over one of the colored bars at the bottom of the graphic will highlight that specific type of variations and decrease the opacity of the rest.</p>
+						<img src="images/doc_7b.png" alt="Image of hovering over bar", class="img-responsive">
 					</div>
 
 					<div id="question-8" class="col-lg-8 question">
@@ -101,8 +106,8 @@
 
 					<div id="question-9" class="col-lg-8 question">
 						<p><b>9. How can I save a specific domain, exon or protein variation?</b><br>
-						To save an interesting feature, click on it. A dialogue box will appear with a save button on the bottom left corner. Click the save button.</p>
-						<img src="" alt="image of a modal">
+						To save a feature, click on it. A dialogue box will appear with a save button on the bottom left corner. Click the save button.</p>
+						<img src="images/doc_9.png" alt="image of a modal", class="img-responsive">
 					</div>
 
 					<div id="question-10" class="col-lg-8 question">
@@ -110,7 +115,7 @@
 						You can find the saved features at the bottom of the page, below the graphics under a dark grey section entitled “Annotation”. There are four tabs named “all”, “domains”, “exons” and “variations”.<br><br>
 
 						You can review the data of the feature by pressing the arrow on the left of the box and the “X” on the right to delete it.</p>
-						<img src="" alt="image of a saved item">
+						<img src="images/doc_10.png" alt="image of a saved item", class="img-responsive">
 					</div>
 
 					<div id="question-11" class="col-lg-8 question">
@@ -121,7 +126,7 @@
 					<div id="question-12" class="col-lg-8 question">
 						<p><b>12. How can I contact the development team?</b><br>
 						If you wish to suggest a feature, improvement or simply leave a comment, please write to info@vizport.io</p>
-					</div>											
+					</div>
 				</div>
 			</div>
 		</div>
@@ -131,7 +136,7 @@
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-lg-12">
-					<p>&copy 2015 VizPort</p>
+					<p>&copy 2016 VizPort</p>
 				</div>
 			</div>
 		</div>
